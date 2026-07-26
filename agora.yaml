@@ -3,7 +3,7 @@
 # - see also: sources.yaml for the actual repositories being consumed. That file's contents might be folded into this one at a later time.
 # -- [[flancian]] (2023-08)
 
-agora_name: "Agora of the Link"
-url_base: "https://link.agor.ai"
-uri_base: "link.agor.ai"
-api_base: "https://api.agor.ai"
+agora_name: "Bitwäscherei Agora"
+url_base: "https://bit.agor.ai"
+uri_base: "bit.agor.ai"
+api_base: "https://bit.agor.ai"

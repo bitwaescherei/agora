@@ -24,26 +24,9 @@
   edit: https://github.com/flancian/flancia/edit/master/{path}
   support: https://flancia.org
 
-- target: garden/rel8
-  url: https://github.com/OpenGlobalMind/rel8-wiki
-  web: https://wiki.rel8.dev/scalingsynthesis.com/{path}
-  edit: https://github.com/OpenGlobalMind/rel8-wiki/edit/master/{path}
+- target: garden/bitwäscherei
+  url: https://github.com/bitwaescherei/bitwaescherei.git
+  web: https://bitwaescherei.ch
+  edit: https://github.com/bitwaescherei/bitwaescherei/edit/master/{path}
   format: obsidian
 
-- target: garden/ogm
-  url: https://github.com/OpenGlobalMind/ogm-wiki.git
-  web: https://wiki.openglobalmind.com/{path}
-  edit: https://github.com/OpenGlobalMind/ogm-wiki/edit/main/{path}
-  format: massivewiki
-
-- target: garden/massivewiki
-  url: https://github.com/Massive-Wiki/massive-wiki.git
-  web: https://massive.wiki/{path}
-  edit: https://github.com/Massive-Wiki/massive-wiki/edit/main/{path}
-  format: massivewiki
-
-- target: garden/context-center
-  url: https://github.com/AramZS/context-center.git
-  web: https://context.center/{path}
-  edit: https://github.com/AramZS/context-center/edit/main/src/{path}
-  format: obsidian
