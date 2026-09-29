@@ -1,29 +1,46 @@
-# Welcome to the Agora of the Link!
+# Welcome to the Bitwäscherei Agora!
 
-This Agora is maintained by the [Fellowship of the Link](https://anagora.org/fotl). You should be able to see it live at <https://link.agor.ai>.
+This [[Agora]] is maintained by the [Bitwäscherei](https://bitwaescherei.ch) community. It is currently running internally at [agora.init5.ch](https://agora.init5.ch) (and eventually accessible from anywhere at [bit.agor.ai](https://bit.agor.ai)).
 
 # Wait, what's an Agora again?
 
-It's a *Knowledge Commons* maintained by a Community of Practice. In this case, this means the Fellowship of the Link and our friends.
+It's a *Knowledge Commons* maintained by a Community of Practice. In this case, this means the Bitwäscherei community, allied hackerspaces, maker collectives, and friends.
 
-An Agora's architecture has several components distributed over three git repositories:
+You can think of an Agora as a virtual space for knowledge sharing, cross-pollination, and cooperation towards common goals and interests. It links ideas, notes, wikis, and resources across independent gardens and repositories into a shared graph.
 
-- The *Agora root repository*, which you are browsing: <https://github.com/flancian/link.agor.ai>. 
-  - This root repository contains a high level definition of the Agora as expressed by the list of digital gardens to be integrated (`sources.yaml`) and the contract agreed upon by the community (`CONTRACT.md`).
-- The *Agora Server*: <https://github.com/flancian/agora-server>.
-  - Which contains a reference Python / Flask web app that integrates and serves content. It is live at <https://anagora.org>.
-- The *Agora Bridge*: <https://github.com/flancian/agora-bridge>.
-  - Which contains a set of processes to retrieve content as volunteered by users.
+# Contents & Repositories
 
-# To join
+This Agora currently aggregates and interlinks several community wikis, digital gardens, and knowledge bases:
 
-If you would like to join the reference Agora described in this particular repository, please send a PR adding your garden to `sources.yaml` or reach out to [flancian](https://anagora.org/flancian) or a member of [Fellowship of the Link](https://anagora.org/fotl) with a pointer to your repository (or just your writing) and your choice of [username](https://anagora.org/users). 
+- **[[Bitwäscherei]]** ([Web](https://bitwaescherei.ch) / [GitHub](https://github.com/bitwaescherei/bitwaescherei)): Notes, wiki pages, and documentation from the Bitwäscherei hackerspace collective in Zürich.
+- **[[SGMK]]** ([Wiki](https://wiki.sgmk-ssam.ch)): Schweizerische Gesellschaft für Mechatronische Kunst (Swiss Mechatronic Art Society) wiki.
+- **[[Hackteria]]** ([Wiki](https://hackteria.org/wiki)): Open Source Biological Art, DIY biology, open hardware, and citizen science wiki.
+- **[[Idiot.io]]** ([Archive](https://wiki.idiot.io)): Internet of Things and open hardware community wiki.
+- **[[TAMI]]** ([Archive](https://telavivmakers.org)): Tel Aviv Makers / Makerspace wiki archives.
+- **[[Flancian]]** ([Garden](https://github.com/flancian/garden) / [Agora](https://anagora.org/@flancian)): Personal digital garden of Flancian.
+- **[[Flancia]]** ([Web](https://flancia.org) / [GitHub](https://github.com/flancian/flancia)): Writing and essays from the Flancia collective.
+- **[[Agora Doc]]** ([Stoa](https://doc.anagora.org) / [GitHub](https://github.com/flancia-coop/doc.anagora.org)): Shared Agora documentation and collaborative pads.
 
-# To run
+# Architecture
 
-This Agora runs on Coop Cloud based on the recipe at <https://git.coopcloud.tech/flancian/agora>.
+An Agora's architecture consists of three main components:
+
+- The *Agora root repository*, which you are browsing: [github.com/bitwaescherei/agora](https://github.com/bitwaescherei/agora). 
+  - Contains the high-level configuration of the Agora, including the list of integrated wikis, gardens, and websites ([`sources.yaml`](https://github.com/bitwaescherei/agora/blob/main/sources.yaml)), instance settings (`agora.yaml`), and the community agreement ([`CONTRACT.md`](https://github.com/bitwaescherei/agora/blob/main/CONTRACT.md)).
+- The *Agora Server*: [github.com/flancian/agora-server](https://github.com/flancian/agora-server).
+  - Reference Python / Flask web application and graph engine that integrates and serves content. The reference Agora is live at [anagora.org](https://anagora.org).
+- The *Agora Bridge*: [github.com/flancian/agora-bridge](https://github.com/flancian/agora-bridge).
+  - Retrieval and ingestion processes that import content (via Git, MediaWiki API, Wayback Machine, etc.) volunteered by participating projects.
+
+# To join & contribute
+
+If you would like to contribute your notes, wiki, or digital garden to the Bitwäscherei Agora:
+
+- Send a PR adding your source to [`sources.yaml`](https://github.com/bitwaescherei/agora/blob/main/sources.yaml).
+- Or reach out to the [Bitwäscherei](https://bitwaescherei.ch) community and tell us what you would like to contribute!
 
 # Contract
+
 ***If you contribute directly to an Agora you are assumed to be in agreement with its then current contract.*** 
 
-Please refer to the Agora's [contract](https://link.agor.ai/contract), in particular as posted by the system account @agora (which is binding for all users).
+Please refer to the Agora's [contract](/contract), in particular as posted by the system account @agora.
