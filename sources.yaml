@@ -30,3 +30,25 @@
   edit: https://github.com/bitwaescherei/bitwaescherei/edit/master/{path}
   format: obsidian
 
+- target: garden/sgmk
+  url: https://wiki.sgmk-ssam.ch/api.php
+  web: https://wiki.sgmk-ssam.ch/wiki/{slug}
+  format: mediawiki
+
+- target: garden/hackteria
+  url: https://hackteria.org/wiki/api.php
+  web: https://hackteria.org/wiki/{slug}
+  format: mediawiki
+
+- target: garden/idiot
+  url: https://wiki.idiot.io
+  web: https://web.archive.org/web/*/https://wiki.idiot.io/{slug}
+  format: wayback
+
+- target: garden/tami
+  url: https://telavivmakers.org
+  web: https://web.archive.org/web/*/https://telavivmakers.org/{slug}
+  format: wayback
+
+
+
