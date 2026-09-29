@@ -52,63 +52,67 @@
 
 - target: garden/ccczh-news
   url: https://www.ccczh.ch/news/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/news/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/news/{slug}
+  format: website
 
 - target: garden/ccczh-chaosseminar
   url: https://www.ccczh.ch/aktivitaeten/chaosseminar/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/chaosseminar/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/aktivitaeten/chaosseminar/{slug}
+  format: website
 
 - target: garden/ccczh-vereinsversammlungen
   url: https://www.ccczh.ch/protokolle/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/vereinsversammlungen/{slug}
-  format: wayback
+  prefix: https://www.ccczh.ch/protokolle/vereinsversammlungen/
+  web: https://www.ccczh.ch/protokolle/vereinsversammlungen/{slug}
+  format: website
 
 - target: garden/ccczh-chaostreffs
   url: https://www.ccczh.ch/protokolle/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/beschlussfaehige/{slug}
-  format: wayback
+  prefix: https://www.ccczh.ch/protokolle/beschlussfaehige/
+  web: https://www.ccczh.ch/protokolle/beschlussfaehige/{slug}
+  format: website
 
 - target: garden/ccczh-vorstandssitzungen
   url: https://www.ccczh.ch/protokolle/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/vorstandssitzungen/{slug}
-  format: wayback
+  prefix: https://www.ccczh.ch/protokolle/vorstandssitzungen/
+  web: https://www.ccczh.ch/protokolle/vorstandssitzungen/{slug}
+  format: website
 
 - target: garden/ccczh-projekte
   url: https://www.ccczh.ch/aktivitaeten/projekte/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/projekte/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/aktivitaeten/projekte/{slug}
+  format: website
 
 - target: garden/ccczh-aktivitaeten
   url: https://www.ccczh.ch/aktivitaeten/aktivitaeten/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/aktivitaeten/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/aktivitaeten/aktivitaeten/{slug}
+  format: website
 
 - target: garden/ccczh-zugangsgesuche
   url: https://www.ccczh.ch/aktivitaeten/zugangsgesuche/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/zugangsgesuche/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/aktivitaeten/zugangsgesuche/{slug}
+  format: website
 
 - target: garden/ccczh-cryptoparties
   url: https://www.ccczh.ch/aktivitaeten/cryptoparties/
-  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/cryptoparties/{slug}
-  format: wayback
+  web: https://www.ccczh.ch/aktivitaeten/cryptoparties/{slug}
+  format: website
 
 - target: garden/digiges-dossier
   url: https://www.digitale-gesellschaft.ch/dossier/
-  web: https://web.archive.org/web/*/https://www.digitale-gesellschaft.ch/dossier/{slug}
-  format: wayback
+  web: https://www.digitale-gesellschaft.ch/dossier/{slug}
+  format: website
 
 - target: garden/digiges-medienmitteilung
   url: https://www.digitale-gesellschaft.ch/tag/medienmitteilung/
-  web: https://web.archive.org/web/*/https://www.digitale-gesellschaft.ch/tag/medienmitteilung/{slug}
-  format: wayback
+  feed: https://www.digitale-gesellschaft.ch/tag/medienmitteilung/feed/
+  web: https://www.digitale-gesellschaft.ch/{slug}
+  format: website
 
 - target: garden/elrido
   url: https://elrido.dssr.ch/
-  web: https://web.archive.org/web/*/https://elrido.dssr.ch/{slug}
-  format: wayback
+  web: https://elrido.dssr.ch/{slug}
+  format: website
 
 - target: garden/elrido-mindloot
   url: https://mindloot.net/txt/api.php
@@ -117,5 +121,5 @@
 
 - target: garden/stahl
   url: https://www.stahlnow.com/projects/
-  web: https://web.archive.org/web/*/https://www.stahlnow.com/projects/{slug}
-  format: wayback
+  web: https://www.stahlnow.com/projects/{slug}
+  format: website
