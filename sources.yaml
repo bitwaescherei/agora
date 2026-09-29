@@ -50,5 +50,57 @@
   web: https://web.archive.org/web/*/https://telavivmakers.org/{slug}
   format: wayback
 
+- target: garden/ccczh-news
+  url: https://www.ccczh.ch/news/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/news/{slug}
+  format: wayback
 
+- target: garden/ccczh-chaosseminar
+  url: https://www.ccczh.ch/aktivitaeten/chaosseminar/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/chaosseminar/{slug}
+  format: wayback
 
+- target: garden/ccczh-vereinsversammlungen
+  url: https://www.ccczh.ch/protokolle/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/vereinsversammlungen/{slug}
+  format: wayback
+
+- target: garden/ccczh-chaostreffs
+  url: https://www.ccczh.ch/protokolle/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/beschlussfaehige/{slug}
+  format: wayback
+
+- target: garden/ccczh-vorstandssitzungen
+  url: https://www.ccczh.ch/protokolle/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/protokolle/vorstandssitzungen/{slug}
+  format: wayback
+
+- target: garden/ccczh-projekte
+  url: https://www.ccczh.ch/aktivitaeten/projekte/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/projekte/{slug}
+  format: wayback
+
+- target: garden/ccczh-aktivitaeten
+  url: https://www.ccczh.ch/aktivitaeten/aktivitaeten/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/aktivitaeten/{slug}
+  format: wayback
+
+- target: garden/ccczh-zugangsgesuche
+  url: https://www.ccczh.ch/aktivitaeten/zugangsgesuche/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/zugangsgesuche/{slug}
+  format: wayback
+
+- target: garden/ccczh-cryptoparties
+  url: https://www.ccczh.ch/aktivitaeten/cryptoparties/
+  web: https://web.archive.org/web/*/https://www.ccczh.ch/aktivitaeten/cryptoparties/{slug}
+  format: wayback
+
+- target: garden/digiges-dossier
+  url: https://www.digitale-gesellschaft.ch/dossier/
+  web: https://web.archive.org/web/*/https://www.digitale-gesellschaft.ch/dossier/{slug}
+  format: wayback
+
+- target: garden/digiges-medienmitteilung
+  url: https://www.digitale-gesellschaft.ch/tag/medienmitteilung/
+  web: https://web.archive.org/web/*/https://www.digitale-gesellschaft.ch/tag/medienmitteilung/{slug}
+  format: wayback
