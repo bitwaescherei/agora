@@ -104,3 +104,18 @@
   url: https://www.digitale-gesellschaft.ch/tag/medienmitteilung/
   web: https://web.archive.org/web/*/https://www.digitale-gesellschaft.ch/tag/medienmitteilung/{slug}
   format: wayback
+
+- target: garden/elrido
+  url: https://elrido.dssr.ch/
+  web: https://web.archive.org/web/*/https://elrido.dssr.ch/{slug}
+  format: wayback
+
+- target: garden/elrido-mindloot
+  url: https://mindloot.net/txt/api.php
+  web: https://mindloot.net/txt/{slug}
+  format: mediawiki
+
+- target: garden/stahl
+  url: https://www.stahlnow.com/projects/
+  web: https://web.archive.org/web/*/https://www.stahlnow.com/projects/{slug}
+  format: wayback
